@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>City Explorer</h1>
+    <p>Bine ai venit!</p>
+    <header class="site-header">
+        <h1>City Explorer</h1>
+        <nav class="menu">
+            <a href="#Destinatii">Destinatii</a>
+            <a href="#Planifica">Planifica</a>
+            <a href="#Recomandari">Recomandari</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Destinatii">
+            <h2>Alegeti-va Destinatia Dorita</h2>
+            <div class="cards">
+                <article class="card"><h3>Japonia - Tokyo</h3><p>Metropola vibranta cu temple istorice.</p><p>Durata recomandata vizitare : 14 zile</p></article>
+                <article class="card"><h3>Italia - Roma</h3><p>Roma este un adevarat muzeu in aer liber.</p><p>Durata recomandata vizitare : 7 zile</p></article>
+                <article class="card"><h3>Canada - Ottawa</h3><p>Capitala Canadei se remarca prin arhitectura neogotica superba a cladirilor Parlamentului</p><p>Durata recomandata vizitare : 7 zile</p></article>
+                <article class="card"><h3>Egipt - Cairo</h3><p>Orasul este celebru pentru apropierea sa de Cuceritoarele Piramide din Giza si Sfinx.</p><p>Durata recomandata vizitare : 10 zile</p></article>
+                <article class="card"><h3>Australia - Canberra</h3><p>Canberra este un oras spatios, inconjurat de dealuri si parcuri națtonale.</p><p>Durata recomandata vizitare : 8 zile</p></article>
+            </div>
+        </section>
+        <section id="Planifica">
+            <h2>Planificati-va Vacanta</h2>
+            <label for="name">Nume</label>
+            <input id="name" name="name" type="text">
+            <label for="destination">Destinatie</label>
+            <select id="destination" name="destination">
+                <option value="Roma">Roma</option>
+                <option value="Tokyo">Tokyo</option>
+                <option value="Ottawa">Ottawa</option>
+                <option value="Cairo">Cairo</option>
+                <option value="Canberra">Canberra</option>
+            </select>
+            <label for="days">Numar de zile</label>
+            <input id="days" name="days" type="number">
+            <button type="submit">Planifica excursia</button>
+        </section>
+        <section id="Recomandari">
+            <h2>Sfaturi de calatorie</h2>
+            <p>Documentati-va despre transportul public</p><p>Respecta obiceiurile locale</p><p>Rezerva biletele din timp</p>
+        </section>
+    </main>
+    <footer class="site-footer">Murarescu Maria Oana, 2026</footer>
+</body>
+</html>
